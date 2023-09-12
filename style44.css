@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+
+}
+body{
+    background-color: #26FAB3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-image: linear-gradient(to top, #02771f, #78ec83);
+    color: white;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    padding: 10px;
+}
+nav >h1{
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 35px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.411);
+}
+nav > p{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.432);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    text-shadow: 1px 0px 7px rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    transition-duration: .5s;
+    padding: 5px;
+}
+nav >a:hover{
+    background-color: #64cc64;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    padding: 15px;
+    min-width: 280px;
+    max-width:800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+article > h1{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: green;
+}
+aside.hz3{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: green;
+    background-image: linear-gradient(to right, rgb(128, 219, 128), transparent);
+    font-size: normal;
+}
+p > a{
+    color: green;
+    text-decoration: none;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+p > a:after{
+    content: '\00A0🔗';
+}
+p{
+    text-indent: 20px;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+}
+.extra{
+    background-color: #8dd6a0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+}
+.extra > h3{
+    background-color: rgb(54, 219, 54);
+    padding: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.418);
+    border-radius: 10px 10px 0px 0px;
+}
+a{
+    text-decoration: none;
+    color: #008000;
+}
+a:hover{
+    text-decoration: underline;
+}
+aside#photo{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+body > p#final{
+    text-align: center;
+    background-color: green;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+    margin: 0px;
+    padding: 0px;
+}
+p#final > span{
+    color: gray;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#lista{
+    columns: 2;
+}
+body > p > a{
+    color: rgb(125, 231, 148);
+}
+#youtube{
+    text-align: center;
+}
