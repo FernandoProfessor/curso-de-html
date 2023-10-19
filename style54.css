@@ -1,0 +1,72 @@
+
+#principal{
+    text-align: left;
+    font-style: normal;
+    line-height: 55px;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial;
+    background-color: white;
+    font-size: 2vw;
+}
+aside{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+article{
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5em;
+}
+#p1{
+    background-image: url('imagens/flor-joaninha.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fundo1{
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    width: 60%;
+}
+#p3{
+    background-image: url('imagens/folha-livro.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 30px;
+    height: 30%;
+}
+#fundo2{
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    width: 60%;
+}
+#rodape{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
